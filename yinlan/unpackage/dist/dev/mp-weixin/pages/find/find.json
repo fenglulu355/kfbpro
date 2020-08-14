@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发现",
+  "usingComponents": {
+    "bottom-nav": "/components/bottom-nav/bottom-nav",
+    "icon": "/components/icon/icon"
+  }
+}

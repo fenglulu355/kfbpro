@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "会计初级职称",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "popup": "/components/popup/popup",
+    "icon": "/components/icon/icon",
+    "course-nav": "/components/course-nav/course-nav"
+  }
+}

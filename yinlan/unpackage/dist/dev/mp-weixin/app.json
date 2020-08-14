@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/class/class",
+    "pages/find/find",
+    "pages/itemize/itemize",
+    "pages/system/system",
+    "pages/system-payment/system-payment",
+    "pages/open-class/open-class",
+    "pages/class-chapter/class-chapter",
+    "pages/video-class/video-class",
+    "pages/video-chapter/video-chapter",
+    "pages/video-chapter-2/video-chapter-2"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap67.json"
+}
