@@ -1,0 +1,357 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// }
+		//    ,
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/stores/Shome/Shome",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "门店"
+			}
+		}
+
+		, {
+			"path": "pages/kstock/kgoodds/kgoodds",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "库存"
+			}
+		}, {
+			"path": "pages/order/ohome/ohome",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "工单"
+			}
+		}, {
+			"path": "pages/purchase/phome/phome",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "采购"
+			}
+		}, {
+			"path": "pages/mine/mhome/mhome",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/stores/customer/customer",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "客户管理"
+			}
+		}, {
+			"path": "pages/stores/cusmain/cusmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "客户详情"
+			}
+		}, {
+			"path": "pages/stores/addcar/addcar",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "添加车辆"
+			}
+		}, {
+			"path": "pages/stores/editinfo/editinfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "编辑客户资料"
+			}
+		}
+
+		, {
+			"path": "pages/stores/shopset/shopset",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "门店设置"
+			}
+		}, {
+			"path": "pages/stores/sales-mng/sales-mng",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "销售管理"
+			}
+		}, {
+			"path": "pages/stores/addgoods/addgoods",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "创建销售单/选择商品"
+			}
+		}, {
+			"path": "pages/stores/order/order",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "确认销售单"
+			}
+		}, {
+			"path": "pages/stores/salesmain/salesmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "销售单详情"
+			}
+		}, {
+			"path": "pages/stores/service/service",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "服务"
+			}
+		}, {
+			"path": "pages/stores/editserv/editserv",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "编辑服务项目"
+			}
+		}, {
+			"path": "pages/stores/editservgroup/editservgroup",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "服务分组"
+			}
+		}, {
+			"path": "pages/stores/returngoods/returngoods",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "退货管理"
+			}
+		}, {
+			"path": "pages/stores/curreturngoods/curreturngoods",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "确认退货单"
+			}
+		}, {
+			"path": "pages/stores/returngoodsmain/returngoodsmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "退货单详情"
+			}
+		}, {
+			"path": "pages/stores/finance/finance",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "财务管理"
+			}
+		}, {
+			"path": "pages/stores/incmain/incmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "收支详情"
+			}
+		}, {
+			"path": "pages/stores/billmain/billmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "账单详情"
+			}
+		}, {
+			"path": "pages/stores/addincome/addincome",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "新增收入"
+			}
+		}, {
+			"path": "pages/stores/supply/supply",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "供应商管理"
+			}
+		}, {
+			"path": "pages/stores/addsupply/addsupply",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "新增线下供应商"
+
+			}
+		}, {
+			"path": "pages/stores/supplymain/supplymain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "供应商详情页"
+			}
+		}, {
+			"path": "pages/stores/ptsupplymain/ptsupplymain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "平台供应商详情页"
+			}
+		}, {
+			"path": "pages/stores/complaint/complaint",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "投诉建议"
+			}
+		}, {
+			"path": "pages/stores/complaintmain/complaintmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "反馈详情"
+			}
+		}, {
+			"path": "pages/kstock/goodsgroup/goodsgroup",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品分组"
+			}
+		}, {
+			"path": "pages/kstock/addgoods/addgoods",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "编辑商品固有属性"
+			}
+		},
+		{
+			"path": "pages/kstock/goodsmain/goodsmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "pages/kstock/offlinegoodsmain/offlinegoodsmain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "线下商品详情"
+
+			}
+		}, {
+			"path": "pages/kstock/editattr/editattr",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "编辑商品固有属性"
+			}
+		}, {
+			"path": "pages/kstock/stockchange/stockchange",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "库存变更记录"
+			}
+		}, {
+			"path": "pages/kstock/inventory/inventory",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "盘点库存"
+			}
+		}, {
+			"path": "pages/mine/minesetting/minesetting",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "个人设置"
+			}
+		}, {
+			"path": "pages/mine/changepsw/changepsw",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "修改密码"
+			}
+		}
+
+		, {
+			"path": "pages/purchase/editdress/editdress",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "编辑地址"
+			}
+		}, {
+			"path": "pages/purchase/addressmng/addressmng",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "收货地址管理"
+			}
+		}
+
+		, {
+			"path": "pages/order/collection/collection",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "确认账单"
+			}
+		}, {
+			"path": "pages/order/curmoney/curmoney",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "收款"
+			}
+		}, {
+			"path": "pages/order/ordermain/ordermain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "工单详情"
+			}
+		}, {
+			"path": "pages/order/ralacar/ralacar",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "关联车辆"
+			}
+		}, {
+			"path": "pages/order/addpj/addpj",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "选择配件"
+			}
+		}
+	    ,{
+            "path" : "pages/others/black/black",
+            "style" : {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": ""
+			}
+        }
+        
+    ],
+	"tabBar": {
+		"color": "#666666", //未选中的菜单文字颜色
+		"selectedColor": "#2D8CF0", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+				"pagePath": "pages/stores/Shome/Shome", //页面地址
+				"iconPath": "static/logo.png", //未选中时的图片
+				"selectedIconPath": "static/logo.png", //选中时的图片
+				"text": "门店" //菜单文字
+			},
+			{
+				"pagePath": "pages/kstock/kgoodds/kgoodds",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "库存"
+			},
+			{
+				"pagePath": "pages/order/ohome/ohome", //页面地址
+				"iconPath": "static/logo.png", //未选中时的图片
+				"selectedIconPath": "static/logo.png", //选中时的图片
+				"text": "工单" //菜单文字
+			},
+			{
+				"pagePath": "pages/purchase/phome/phome",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "采购"
+			},
+			{
+				"pagePath": "pages/mine/mhome/mhome",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#fafafa"
+	}
+}
